@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "scripts": {
 
-        "deploy": "npm run build && gh-pages -d term -b master"
+        "deploy": "npm run build && gh-pages -d build -b master"
     },
     "configurations": [
 
