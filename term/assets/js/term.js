@@ -9,17 +9,12 @@ $(window).on('load', function() {
       var $alttheme = ($theme === 'light')?('white'):('dark');
       var $newtheme = ($theme === 'light')?('dark'):('light');
       var $altnewtheme = ($theme === 'light')?('dark'):('white');
-      
+
       if (!change) {
         $newtheme = $theme;
         $altnewtheme = $alttheme;
         $theme = 'light';
         $alttheme = 'white';
-      }else if(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches){
-        $newtheme = $theme;
-        $altnewtheme = $alttheme;
-        $theme = 'dark';
-        $alttheme = 'shadow';
 
       }
       var $elt = $('.'+$theme);
