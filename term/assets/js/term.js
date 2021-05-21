@@ -9,7 +9,7 @@ $(window).on('load', function() {
       var $alttheme = ($theme === 'light')?('white'):('dark');
       var $newtheme = ($theme === 'light')?('dark'):('light');
       var $altnewtheme = ($theme === 'light')?('dark'):('white');
-      var $autotheme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      
       if (!change) {
         $newtheme = $theme;
         $altnewtheme = $alttheme;
