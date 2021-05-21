@@ -135,7 +135,7 @@ var cmdInpt = $('#cmd-input');
 var cmdHist = [];
 var currPos = 0;
 var key = {};
-var theme = localStorage.getItem('theme') || 'light';
+var theme = localStorage.getItem('theme') || (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light');
 function appendToHist(str) {
   hist.append(`<pre class='${theme}'>${str}\n</pre>`)
 }
