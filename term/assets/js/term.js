@@ -5,7 +5,7 @@ $(window).on('load', function() {
         Theme Toggling
     =========================================================================*/
     window.toggleThemes = function(change = true){
-      var $theme = localStorage.getItem('theme') || 'light';
+      var $theme = localStorage.getItem('theme') || (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light');
       var $alttheme = ($theme === 'light')?('white'):('dark');
       var $newtheme = ($theme === 'light')?('dark'):('light');
       var $altnewtheme = ($theme === 'light')?('dark'):('white');
