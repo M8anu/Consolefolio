@@ -71,7 +71,7 @@ var config = {
       "description": "get to know me a bit more :)",
       "exec": "about",
       "data": {
-        "manu": "Hi! I am Manu(M8anu/M1ndbl0w on the Internet), junior Software Engineer, passionate about repairing machines of every kind and looking for work! If you want to get to know me a bit more, try `help about`.\n",
+        "manu": "Hi! I am Manu(M8anu/M1ndbl0w on the Internet), junior Software Engineer, passionate about repairing machines of every kind and looking for work! If you want to get to know me a bit more, enter `help about`.\n",
         "life": "The journey of this little human alongside technology starts in 2005. When for his 7th birthday he was gifted a PlayStation2.\nHe did not knew, but from there on, his appetite on technology and its surroundings did nothing but growing more and more. And here he is writing these lines in 3rd person perspective, such writing talent, wow.\nWhatsoever, thank you Bidridi and Ma for opening me up to this amazing world, forever yours from these lines to beyond.........\n",
         "experience": "-UMA Student Residence Internship\nNetwork and Wi-Fi installation Intern.\nMalaga, SPA.\nJune 2017 – Aug 2017\nDeveloped the installation of the gateway, switches rack, cabling, VoIP Telephone Network installation and Wi-Fi Ubiquiti access points, conforming a solid and stable Mesh Internet Network.\nAs part of making the theoretical End Of Studies Project of my colleagues Melchor and Antonio a reality.\n\n-Vicerrectorado Smart-Campus, University of Malaga\nWeb Content Manager and Server Administrator + Event/Activities Moderator + Web App Developer\nMalaga, SPA.\nNov 2020 – May 2021\nMigrated the whole vicerrectorado content from a Joomla managed site to the new Merengue managed university.\nPublished and edited all the information concerning news and events from the vicerrectorado.\nApplied styles and added customization to the site: https://www.uma.es/smart-campus.\nDeveloped a Web Application, an interactive map with all POT of UMA\'s Campus: http://osm.uma.es/mapa.\n\n",
         "skills": "\n * Human Values: constant effort, teamworking, respect, empathy, loyalty, perseverance, always willing to learn and improve, love.\n\n * Speaking: B2 Cambridge FCE in English in 2014, currently native level both reading and speaking; fluent in French(currently preparing for language exam).\n\n * Custom Videogaming-Modding: Retropie, PC-Building, PC-Budgeting, Console Tweaking, OS Modelling and Customization.\n\n * Web Development: Django(average), JSP, JSF, HTML5, CSS, JavaScript, RESTful API, Node.js, React, React Native(beginner), Wordpress.\n\n * Mobile Development: Android(both framework and app develompent), Flutter(beginner), Responsive design.\n\n * Languages: C++, Python, C, Java 8(lol how many updates), JavaScript, jQuery(this project), MATLAB, HTML, CSS, Bash, ARM assembly language(some projects on RaspberryPi Environment), Python, Typescript(beginner).\n\n * Software Modelling: USE, UML, MagicDraw, Alloy, Promela.\n\n * Other, non specific: Server administration and networking(both installation and management, strong SQL knowledge). Even if I don\'t know about something, in case I\'d need it, SAPERE AUDE!\n\n",
@@ -276,7 +276,7 @@ function _getCmdByName(name) {
 function about(args, data) {
   var outStr = '';
   if (args.length <= 1) {
-    outStr += data['sid'];
+    outStr += data['manu'];
   } else {
     var cmdStr = args.splice(1).join(" ");
     if (data.hasOwnProperty(cmdStr)) {
