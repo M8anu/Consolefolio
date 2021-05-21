@@ -89,7 +89,7 @@ var config = {
     {
       "name": "contact",
       "syntax": "contact [phone|telegram|email|resume]",
-      "description": "this is how you can get in touch with me",
+      "description": "get in touch with me :D",
       "exec": "contact",
       "data": {
         "phone": ["tel:+34644926840", "Click to call me."],
