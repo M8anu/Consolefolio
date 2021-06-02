@@ -97,7 +97,7 @@ var config = {
         "phone": ["tel:+34644926840", "Click to call me."],
         "telegram":["https://t.me/Mindbl0w", "Send me a Telegram message!"],
         "email": ["mailto:m8anu@workmail.com", "m8anu@workmail.com"],
-        "resume": ["https://github.com/M8anu/Consolefolio/raw/master/Manuel%20Resume.pdf","Download my resume in .pdf format" ]
+        "resume": ["https://github.com/M8anu/Consolefolio/raw/master/Manuel%20Resume.pdf","Download my resume in .pdf format"]
       }
     },
     {
