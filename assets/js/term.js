@@ -69,7 +69,7 @@ var config = {
   "commands": [
     {
       "name": "about",
-      "syntax": "about [manu|life|experience|skills|upcoming learning|projects]",
+      "syntax": "about [manu|life|experience|skills|currently learning|projects]",
       "description": "get to know me a bit more :)",
       "exec": "about",
       "data": {
