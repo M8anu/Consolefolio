@@ -95,7 +95,6 @@ var config = {
       "exec": "contact",
       "data": {
         "phone": ["tel:+34644926840", "Click to call me."],
-        "telegram":["https://t.me/Mindbl0w", "Send me a Telegram message!"],
         "email": ["mailto:m8anuch@proton.me", "m8anuch@proton.me"],
         "resume": ["https://github.com/M8anu/Consolefolio/raw/master/Manuel%20Resume.pdf","Download my resume in .pdf format"]
       }
