@@ -90,7 +90,7 @@ var config = {
     },
     {
       "name": "contact",
-      "syntax": "contact [phone|telegram|email|resume|xing]",
+      "syntax": "contact [phone|email|resume|xing]",
       "description": "Get in touch with me ^^",
       "exec": "contact",
       "data": {
