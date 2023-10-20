@@ -90,13 +90,14 @@ var config = {
     },
     {
       "name": "contact",
-      "syntax": "contact [phone|telegram|email|resume]",
-      "description": "get in touch with me :D",
+      "syntax": "contact [phone|telegram|email|resume|xing]",
+      "description": "Get in touch with me ^^",
       "exec": "contact",
       "data": {
         "phone": ["tel:+34644926840", "Click to call me."],
         "email": ["mailto:m8anuch@proton.me", "m8anuch@proton.me"],
-        "resume": ["https://github.com/M8anu/Consolefolio/raw/master/Manuel%20Resume.pdf","Download my resume in .pdf format"]
+        "resume": ["https://github.com/M8anu/Consolefolio/raw/master/Manuel%20Resume.pdf","Download my resume in .pdf format"],
+        "xing":["https://www.xing.com/profile/Manuel_ArizaLopez/", "Say Hello in Xing!"]
       }
     },
     {
