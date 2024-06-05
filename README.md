@@ -1,6 +1,6 @@
 # Consolefolio
 
-Personal portfolio website, console alike. *(Under transformation, while so, site will be unpublished)*
+Personal portfolio website, console alike. 
 
 # Instructions
 
