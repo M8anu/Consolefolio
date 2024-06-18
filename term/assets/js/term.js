@@ -119,8 +119,8 @@ var config = {
       "description": "display my social links",
       "exec": "social",
       "data": {
-        "GitHub": ["https://github.com/M8anu", "M8anu @ github "],
-        "xing": ["https://www.xing.com/profile/Manuel_ArizaLopez/", "Say Hello in Xing!"]
+        "GitHub": ["https://github.com/M8anu"],
+        "xing": ['https://www.xing.com/profile/Manuel_ArizaLopez/']
       }
     }
   ]
